@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <label>
+        Текст:
+        <input type="text" v-model="inputText">
+    </label>
+    <label>
+        Індекс з:
+        <input type="number" min="0" v-bind:max="(inputText.length - 1)" v-model="startIndex">
+    </label>
+    <label>
+        Довжина:
+        <input type="number" min="1" v-bind:max="inputText.length - startIndex" v-model="substrLength">
+    </label>
+    <label>
+        Результуюча підстрока:
+        <input type="text" readonly v-bind:value="result">
+    </label>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
