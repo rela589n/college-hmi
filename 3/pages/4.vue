@@ -26,8 +26,8 @@ export default Vue.extend({
   data: function () {
     return {
       inputText: '',
-      startIndex: 3,
-      substrLength: 8,
+      startIndex: 0,
+      substrLength: 1,
     }
   },
   computed: {
