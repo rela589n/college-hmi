@@ -2,13 +2,13 @@
   <div>
     <label>
       Число А, модуль:
-      <input type="number" v-model="modulo">
+      <input type="number" v-model="moduloText">
     </label>
     <br>
     <br>
     <label>
-      Кількість елементів, які по модулю перевершують число А {{ modulo }}:
-      <input type="text" readonly v-bind:value="maxElement">
+      Кількість елементів, які по модулю перевершують число А ({{ moduloText }}):
+      <input type="text" readonly v-bind:value="maxElements()">
     </label>
     <br>
     <br>
@@ -32,15 +32,26 @@ import Vue from 'vue'
 export default Vue.extend({
   data: function () {
     return {
-      numbers: [1, 2],
-      modulo: 0,
+      numbers: ['1', '2'],
+      moduloText: '0',
     }
   },
   computed: {
-    maxElement: function (): number {
-      return this.numbers.reduce((carry, current) => {
-        return carry + +(Math.abs(current) > Math.abs(this.modulo));
-      }, 0)
+    intNumbers: function (): number[] {
+      return this.numbers.map((x: string) => parseInt(x) || 0);
+    },
+    modulo: function (): number {
+      return parseInt(this.moduloText) || 0;
+    }
+  },
+  methods: {
+    maxElements: function (): number {
+      return this.intNumbers.reduce(
+        (carry: number, current: number) => {
+          return carry + +(Math.abs(current) > Math.abs(this.modulo));
+        },
+        0
+      );
     }
   },
 });
