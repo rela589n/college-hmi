@@ -31,7 +31,7 @@ export default Vue.extend({
       let lastIndex: number = this.inputText.lastIndexOf(this.searchString);
 
       if (firstIndex !== lastIndex) {
-        return this.inputText.slice(0, firstIndex + 1)
+        return this.inputText.slice(0, firstIndex + this.searchString.length)
           + '*'.repeat(lastIndex - firstIndex - 1)
           + this.inputText.slice(lastIndex);
       }
