@@ -25,7 +25,7 @@ import Vue from 'vue'
 export default Vue.extend({
   data: function () {
     return {
-      inputText: '',
+      inputText: 'Text',
       startIndex: 0,
       substrLength: 1,
     }
