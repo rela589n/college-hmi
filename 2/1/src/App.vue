@@ -49,7 +49,7 @@ export default {
           "hello",
           new Date(
               2020,
-              2,
+              10,
               20
           ),
       )
@@ -57,6 +57,7 @@ export default {
   }),
   methods: {
     addNewPatient: function (e, createPatientDto) {
+      console.log(1);
       e.preventDefault();
 
       if (!(createPatientDto.surname && createPatientDto.name && createPatientDto.patronymic && createPatientDto.diagnosis && createPatientDto.roomNumber && createPatientDto.dateOut && createPatientDto.birthday)) {
@@ -85,6 +86,9 @@ export default {
       );
 
       e.target.reset();
+      Object.getOwnPropertyNames(createPatientDto).forEach(function (prop) {
+        delete createPatientDto[prop];
+      });
     },
     removePatient: function (index) {
       this.patients.splice(index, 1);
@@ -92,7 +96,7 @@ export default {
   },
   computed: {
     sickList: function () {
-      let notReleased = this.patients.filter(p => new Date().setHours(0, 0, 0, 0) > p._dateOut);
+      let notReleased = this.patients.filter(p => (new Date().setHours(0, 0, 0, 0)) < p._dateOut);
       notReleased.sort((a, b) => a.roomNumber > b.roomNumber ? 1 : -1);
 
       return notReleased;
