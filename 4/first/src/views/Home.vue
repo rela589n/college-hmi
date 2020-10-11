@@ -80,14 +80,14 @@ export default Vue.extend({
               createPatientDto.patronymic,
               new Date(
                   createPatientDto.birthday.year,
-                  createPatientDto.birthday.month,
+                  createPatientDto.birthday.month - 1,
                   createPatientDto.birthday.day
               ),
               createPatientDto.diagnosis,
               createPatientDto.roomNumber,
               new Date(
                   createPatientDto.dateOut.year,
-                  createPatientDto.dateOut.month,
+                  createPatientDto.dateOut.month - 1,
                   createPatientDto.dateOut.day
               ),
           )
