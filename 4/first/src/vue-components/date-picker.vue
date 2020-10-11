@@ -19,9 +19,9 @@ export default Vue.extend({
     'title',
     'value',
   ],
-  data: function () {
+  data: function (): { picker: any } {
     return {
-      picker: new WindowDatePicker(),
+      picker: null,
     }
   },
   methods: {

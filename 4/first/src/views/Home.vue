@@ -62,7 +62,13 @@ export default Vue.extend({
       e.preventDefault();
 
 
-      if (!(createPatientDto.surname && createPatientDto.name && createPatientDto.patronymic && createPatientDto.diagnosis && createPatientDto.roomNumber && createPatientDto.dateOut && createPatientDto.birthday)) {
+      if (!(createPatientDto.surname
+          && createPatientDto.name
+          && createPatientDto.patronymic
+          && createPatientDto.diagnosis
+          && createPatientDto.roomNumber
+          && createPatientDto.dateOut
+          && createPatientDto.birthday)) {
         alert('enter all fields')
         return;
       }

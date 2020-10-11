@@ -8,13 +8,13 @@
     <label class="d-block">patronymic: <input required type="text" class="patronymic"
                                               v-model="createPatientDto.patronymic"></label>
 
-    <date-picker title="birthday" v-model="createPatientDto.birthday"></date-picker>
+    <DatePicker title="birthday" v-model="createPatientDto.birthday"></DatePicker>
 
     <label class="d-block">diagnosis: <input required type="text" class="diagnosis"
                                              v-model="createPatientDto.diagnosis"></label>
     <label class="d-block">roomNumber: <input required type="text" class="roomNumber"
                                               v-model="createPatientDto.roomNumber"></label>
-    <date-picker title="dateOut" v-model="createPatientDto.dateOut"></date-picker>
+    <DatePicker title="dateOut" v-model="createPatientDto.dateOut"></DatePicker>
 
     <button class="btn btn-primary">Add</button>
   </form>
