@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 export class Track {
     constructor(name, author, url, album, playlist) {
         this._name = name;
-        this._author = name;
+        this._author = author;
         this._url = url;
         this._album = album;
         this._playlist = playlist;
