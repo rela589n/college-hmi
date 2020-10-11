@@ -72,4 +72,8 @@ export default Vue.extend({})
 .links {
   padding-top: 15px;
 }
+
+ul {
+  list-style-type: none;
+}
 </style>

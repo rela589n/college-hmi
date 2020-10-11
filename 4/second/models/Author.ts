@@ -19,7 +19,7 @@ export default class Author extends Model {
     }
   }
 
-  toString() {
+  toString(): string {
     return this.name
   }
 }
