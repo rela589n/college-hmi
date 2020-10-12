@@ -28,6 +28,8 @@ export default Vue.extend({
 });
 </script>
 
-<style scoped>
-
+<style>
+ul {
+  list-style-type: none;
+}
 </style>

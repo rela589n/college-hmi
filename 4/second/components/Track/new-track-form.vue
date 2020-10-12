@@ -32,7 +32,12 @@ export default Vue.extend({
   },
   methods: {
     delegateSubmit: function (e: Event) {
-      console.warn(this.createTrackDto)
+      this.createTrackDto.name = this.createTrackDto.name.trim();
+      this.createTrackDto.author = this.createTrackDto.author.trim();
+      this.createTrackDto.url = this.createTrackDto.url.trim();
+      this.createTrackDto.album = this.createTrackDto.album.trim();
+      this.createTrackDto.playlist = this.createTrackDto.playlist.trim();
+
       this.$emit('post-track', {dto: this.createTrackDto});
     }
   }

@@ -44,12 +44,13 @@ export const actions = {
   async findOrCreateAuthor(context: Store<any>, {name}: { name: string }) {
     let author: Author | null = context.getters.authorByName(name);
 
+    console.log(author);
     if (null === author) {
       await Author.insert({
         data: {name}
       })
 
-      return context.getters.authorByName(name)
+      return context.dispatch('findOrCreateAuthor', {name});
     }
 
     return author;
