@@ -10,4 +10,8 @@ export default class EarthForest implements Forest {
     treesHeight(): number {
         return this.humidity * 10;
     }
+
+    clone(): Forest {
+        return new EarthForest(this.humidity);
+    }
 }

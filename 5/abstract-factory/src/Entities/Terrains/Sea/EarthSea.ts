@@ -6,4 +6,8 @@ export default class EarthSea implements Sea {
     noise(): string {
         return this.message;
     }
+
+    clone(): Sea {
+        return new EarthSea();
+    }
 }

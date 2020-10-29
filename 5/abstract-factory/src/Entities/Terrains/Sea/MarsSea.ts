@@ -6,4 +6,8 @@ export default class MarsSea implements Sea {
     noise(): string {
         return this.message;
     }
+
+    clone(): Sea {
+        return new MarsSea();
+    }
 }

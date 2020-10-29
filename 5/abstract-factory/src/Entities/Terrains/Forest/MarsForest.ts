@@ -4,4 +4,8 @@ export default class MarsForest implements Forest {
     treesHeight(): number {
         return 1;
     }
+
+    clone(): Forest {
+        return new MarsForest();
+    }
 }

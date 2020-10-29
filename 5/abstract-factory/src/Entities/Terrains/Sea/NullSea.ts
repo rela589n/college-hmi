@@ -4,4 +4,8 @@ export default class NullSea implements Sea {
     noise(): string {
         return "";
     }
+
+    clone(): Sea {
+        return this;
+    }
 }

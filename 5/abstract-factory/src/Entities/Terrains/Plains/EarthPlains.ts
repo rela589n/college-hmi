@@ -10,4 +10,8 @@ export default class EarthPlains implements Plains {
     windPower(): number {
         return Math.max(0, 20 - 0.1 * (this.treesCount));
     }
+
+    clone(): Plains {
+        return new EarthPlains(this.treesCount);
+    }
 }
