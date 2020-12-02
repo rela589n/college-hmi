@@ -1,0 +1,14 @@
+.text-padding {
+    margin: 5px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.line {
+    background-color: black;
+    height: 2px;
+    width: 200px;
+}
