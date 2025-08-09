@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b9b78e8-6ecb-4b6e-80af-8e0bf912176d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11/interact-with-api/pages/relations/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../../11/interact-with-api/pages/relations/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11/interact-with-api/store/employees.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../11/interact-with-api/store/employees.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/creational/src/Factories/Terrain/CustomTerrainFactory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../5/creational/src/Factories/Terrain/CustomTerrainFactory.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../9/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9/react-two/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../9/react-two/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" />
+  <component name="ProjectId" id="1l9okJJxpCpQpZiBuwPw0JWi9xr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.12.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b9b78e8-6ecb-4b6e-80af-8e0bf912176d" name="Default Changelist" comment="" />
+      <created>1607018809590</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607018809590</updated>
+      <workItem from="1607018810982" duration="5643000" />
+      <workItem from="1607067378681" duration="1275000" />
+      <workItem from="1607071475102" duration="229000" />
+      <workItem from="1607166465718" duration="619000" />
+      <workItem from="1607178676143" duration="2747000" />
+      <workItem from="1607187519514" duration="3270000" />
+      <workItem from="1607195397980" duration="608000" />
+      <workItem from="1607254685464" duration="42000" />
+      <workItem from="1607279108205" duration="297000" />
+      <workItem from="1607279925520" duration="692000" />
+      <workItem from="1607315598543" duration="24000" />
+      <workItem from="1607418412140" duration="4019000" />
+      <workItem from="1607451844253" duration="401000" />
+      <workItem from="1607452439076" duration="1424000" />
+      <workItem from="1607491394004" duration="1831000" />
+      <workItem from="1607498918483" duration="1981000" />
+      <workItem from="1607507051796" duration="4069000" />
+      <workItem from="1607534591694" duration="2871000" />
+      <workItem from="1607582040939" duration="41000" />
+      <workItem from="1607590770712" duration="668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

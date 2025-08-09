@@ -18,7 +18,7 @@ export default class CustomTerrainFactory implements TerrainFactory {
         return this.forestPrototype.clone();
     }
 
-    makePlains(treesCount: number = -1): Plains {
+    makePlains(): Plains {
         return this.plainsPrototype.clone();
     }
 
